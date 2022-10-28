@@ -1,33 +1,33 @@
-#link_btn a{
-    display: block;
-    font-size: 1.1em;
-    text-decoration: none;
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: 600;
-    background: rgba(234, 236, 240, 1);
-    color: black;
-    width: 80vw;
-    margin: 1.5em auto;
-    border-radius: 1em;
-    transition: all .5s ease;
+#link_btn a {
+  display: block;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 500;
+  background: rgba(234, 236, 240, 1);
+  color: black;
+  width: 80vw;
+  margin: 1.5em auto;
+  border-radius: 1em;
+  transition: all 0.5s ease;
 }
-em{
-    font-size: .85em;
+em {
+  font-size: 0.85em;
 }
-#link_btn a:hover{
-    background-color: rgb(19, 17, 17);
-    color: #eee;
+#link_btn a:hover {
+  background-color: rgb(19, 17, 17);
+  color: #eee;
 }
-hr{
-    margin-top: 5em;
+hr {
+  margin-top: 5em;
 }
-@media screen and (max-width:700px){
-    hr{
-        margin-top: 2em;
-    }
-    #link_btn a{
-        font-size: 1em;
-        padding: 1.35rem;
-    }
+@media screen and (max-width: 700px) {
+  hr {
+    margin-top: 2em;
+  }
+  #link_btn a {
+    font-size: 1em;
+    padding: 1.35rem;
+  }
 }
