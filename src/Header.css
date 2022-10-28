@@ -10,3 +10,6 @@
 .profile_ctn a:hover{
     color: blue;
 }
+#twitter, #slack{
+    font-size: 1.2rem;
+}

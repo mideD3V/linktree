@@ -13,8 +13,9 @@
     #footer{
         display: block;
     }
+    
     #footer a img{
-        margin: .7em 5vw;
+        margin: .7em 7vw;
         
     }
 }

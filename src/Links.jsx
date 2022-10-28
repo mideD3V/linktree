@@ -12,7 +12,7 @@ export const Links = () => {
       </a>
       <a href="https://books.zuri.team" id="book_python">
         Become a genius in Python! <br />
-        <em> (Use this link to order for the best python book)</em>
+        <em> (Use this link to order for the best python book at a discount)</em>
       </a>
       <a href="https://background.zuri.team" id="pitch">
         Run Background Check on a coder here
