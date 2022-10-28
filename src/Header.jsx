@@ -13,7 +13,7 @@ export const Header = () => {
           <a href="www.twitter.com" id="twitter">
             <BsTwitter />{" "}
           </a>
-          <a href="www.twitter.com" id="slack">
+          <a href="https://www.slack.com" id="slack">
             <AiOutlineSlack />{" "}
           </a>
         </div>
