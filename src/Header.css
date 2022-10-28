@@ -1,0 +1,12 @@
+.profile_ctn{
+    margin: 2em auto;
+    text-align: center;
+}
+
+.profile_ctn a{
+    color: black;
+    text-decoration: none;
+}
+.profile_ctn a:hover{
+    color: blue;
+}
