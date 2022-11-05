@@ -10,6 +10,14 @@
 .profile_ctn a:hover{
     color: blue;
 }
+
+
+#profile_img:hover{
+    color: brown;
+    background-image: url(../asset/Device=Web\,\ State=Hover.png);
+    transform: scale(1.05);
+    transition: .5s ease;
+}
 #twitter, #slack{
     font-size: 1.2rem;
 }
