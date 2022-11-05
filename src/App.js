@@ -1,14 +1,19 @@
 import React from 'react'
-import {Header} from './Header'
-import { Links } from './Links'
-import {Footer} from './Footer'
+
+import { Main } from './main/Main'
+import {Contact} from './contact/Contact'
+import { Routes, Route} from 'react-router-dom'
+
 
 const App = () => {
-    return (
+  return (
       <>
-            <Header />
-            <Links />
-            <Footer />
+      <Routes>
+          <Route path='/' element={<Main/>} />
+    
+        <Route path='/contact' element={<Contact/>} />
+      </Routes>
+      
       </>
     );
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import ZuriLogo from './asset/Vector.png'
-import HNG from './asset/Footer text.png'
-import I4G from './asset/I4G.png'
+import ZuriLogo from '../asset/Vector.png'
+import HNG from '../asset/Footer text.png'
+import I4G from '../asset/I4G.png'
 import FooterStyles from './Footer.css'
 
 export const Footer = () => {
