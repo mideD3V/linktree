@@ -3,7 +3,6 @@
     margin: 1em auto;
     display: flex;
     justify-content:space-between;
-    background-color: brown;
     max-width: 80vw;
 }
 #footer a{
