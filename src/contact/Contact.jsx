@@ -1,9 +1,12 @@
 import React from 'react'
 import ContactStyles from './Contact.css'
+import Footer from '../footer/Footer'
+
 export const Contact = () => {
-    let fname; 
-    let lname;
-    const name = fname + lname;
+    let first_name; 
+    let last_name;
+  const name = first_name + last_name;
+  
   return (
     <div className='contact'>
       <h2>Contact Me</h2>
@@ -59,6 +62,8 @@ export const Contact = () => {
 
         <button type="submit" id='btn__submit'>Send message</button>
       </form>
+<hr />
+      <Footer/>
     </div>
   );
 }
