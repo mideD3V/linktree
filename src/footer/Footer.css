@@ -6,7 +6,6 @@
     max-width: 80vw;
 }
 #footer a{
-
     text-align: center;
     margin: 2em auto 0;
     
@@ -18,7 +17,10 @@
     }
     
     #footer a img{
-        margin: .7em 7vw;
-        
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
     }
 }

@@ -7,18 +7,16 @@
 }
 
 body{
-    margin: -5em 7em;
-    width: 100vw;
+    
     background-color: #fff;
     font-family: 'Inter', sans-serif;
 
 }
 .contact{
-    margin: 15rem auto 0;
+    margin: 10em;
 
 }
 h2{
-
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -41,12 +39,12 @@ padding: 10px 0 14px 0;
 gap: 8px;
 }
 
-#fname, 
-#lname{
-width: 100%;
+#first_name, 
+#last_name{
+width: 97%;
 margin-right: 10em;
 }
-.fname:focus, .lname:focus{
+.first_name:focus, .last_name:focus{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 
@@ -194,7 +192,7 @@ color: #FFFFFF;
 @media screen and (max-width:600px){
     .contact{
         width: 90vw;
-        margin: 10rem -3rem;
+        margin: 10rem auto;
     }
 
     p{
@@ -204,31 +202,31 @@ color: #FFFFFF;
 
     .name{
         display: block;
-        width: 100%;
+        width: 80%;
     }
 
-    #fname, 
-    #lname{
-    width: 100vw;
+    #first_name, 
+    #last_name{
+    width: 90vw;
     margin-right: 1em;
     }
 
     #email{
-        width: 100vw;
+        width: 90vw;
     }
 #message{
-    width: 100vw;
+    width: 90vw;
 }
 #terms{
     width: 2rem;
     margin-top: 2.3em;
 }
 #condition{
-    width: 100vw;
+    width: 80vw;
     font-size: 16px;
 }
 button{
-    width: 100vw;
+    width: 90vw;
     font-size: 16px;
 }
 button:hover{

@@ -15,18 +15,18 @@ export const Contact = () => {
             <label htmlFor="fname">First name</label>
             <input
               type="text"
-              name="fname"
-              id="fname"
+              name="first_name"
+              id="first_name"
               placeholder="Enter your first name"
             />
           </div>
 
-          <div className="lname">
+          <div className="last_name">
             <label htmlFor="lname">Last name</label>
             <input
               type="text"
               name="lname"
-              id="lname"
+              id="last_name"
               placeholder="Enter your last name"
             />
           </div>
@@ -57,7 +57,7 @@ export const Contact = () => {
           </label>
         </div>
 
-        <button type="submit">Send message</button>
+        <button type="submit" id='btn__submit'>Send message</button>
       </form>
     </div>
   );
