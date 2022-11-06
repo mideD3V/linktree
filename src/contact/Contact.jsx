@@ -30,8 +30,8 @@ export const Contact = () => {
               placeholder="Enter your last name"
             />
           </div>
-
         </div>
+        
         <div className="email">
           <label htmlFor="email">Email</label>
           <input
@@ -53,7 +53,7 @@ export const Contact = () => {
           <label
             htmlFor="terms"
             id='condition'>
-            You agree to providing your data to {name} who may contact you.
+            You agree to providing your data to <code>{ name }</code> who may contact you.
           </label>
         </div>
 
