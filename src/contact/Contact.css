@@ -31,18 +31,23 @@ line-height: 30px;
 }
 
 .name{
-width: 100%;
+width: 90%;
 display: flex;
 flex-direction: row;
 align-items: center;
 padding: 10px 0 14px 0;
 gap: 8px;
+position: relative;
 }
 
 #first_name, 
 #last_name{
-width: 97%;
-margin-right: 10em;
+width: 100%;
+margin-right: 5em;
+
+}
+.fname, .lname{
+    width: 50%;
 }
 .first_name:focus, .last_name:focus{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);

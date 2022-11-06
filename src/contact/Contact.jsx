@@ -24,7 +24,7 @@ export const Contact = () => {
             />
           </div>
 
-          <div className="last_name">
+          <div className="lname">
             <label htmlFor="lname">Last name</label>
             <input
               type="text"
