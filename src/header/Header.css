@@ -11,6 +11,14 @@
     color: blue;
 }
 
+ #share_btn2{
+    position: absolute;
+    left: 80%;
+}
+#share_btn{
+    display: none;
+}
+
 
 #profile_img:hover{
     color: brown;
@@ -20,4 +28,16 @@
 }
 #twitter, #slack{
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+ #share_btn{
+     display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 93%;
+}
+ #share_btn2{
+     display: none;
+ }
 }
