@@ -17,7 +17,7 @@ export const Header = () => {
           <img src={Share} alt="share_btn" id="share_btn"/>
           <img src={Share2} alt="share_btn" id="share_btn2"/>
         </a>
-        <h1 className="user_name">Annie Black</h1>
+        <h1 className="user_name">Ayomide Oke</h1>
       </div>
     </>
   );
