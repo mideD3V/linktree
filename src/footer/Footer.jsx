@@ -1,5 +1,5 @@
 import React from 'react'
-import ZuriLogo from '../asset/Vector.png'
+import ZuriLogo from '../asset/Zuri Logo.jpg'
 import HNG from '../asset/Footer text.png'
 import I4G from '../asset/I4G.png'
 import FooterStyles from './Footer.css'
