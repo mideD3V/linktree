@@ -7,13 +7,12 @@ import FooterStyles from './Footer.css'
 
 export const Footer = () => {
   return (
-      <div id="footer">
-          
+    <div id="footer">
       <a href="https://training.zuri.team/">
         <img src={ZuriLogo} alt="zuri internship" />
       </a>
       <a href="https://training.zuri.team/">
-        <img src={HNG} alt="hng" />
+        <img src={HNG} alt="hng" id="hng9" />
       </a>
       <a href="https://training.zuri.team/">
         <img src={I4G} alt="i4g" />
