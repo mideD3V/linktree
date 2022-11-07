@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactStyles from './Contact.css'
 import Footer from '../footer/Footer'
+import FooterStyle from '../footer/Footer.css'
 
 export const Contact = () => {
 
@@ -61,8 +62,8 @@ export const Contact = () => {
 
         <button type="submit" id='btn__submit'>Send message</button>
       </form>
-<hr />
-      <Footer/>
+      <hr />
+      <Footer id='footer'/>
     </div>
   );
 }
