@@ -26,6 +26,10 @@ top: 0px;
 border-radius: 275px;
 
 }
+#user_name{
+    
+    margin: 24px 0 32px;
+}
 
 #profile_img:hover{
     color: brown;
