@@ -5,7 +5,7 @@ import Footer from '../footer/Footer'
 export const Contact = () => {
     let first_name; 
     let last_name;
-  const name = '{name}';
+  const name = 'Ayomide Oke';
   
   return (
     <div className='contact'>
