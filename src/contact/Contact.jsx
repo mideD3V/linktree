@@ -4,7 +4,7 @@ import Footer from '../footer/Footer'
 
 export const Contact = () => {
 
-  const name = 'Ayomide Oke';
+  const name = 'mideD3v';
   
   return (
     <div className='contact'>
