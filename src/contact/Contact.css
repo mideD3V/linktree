@@ -110,7 +110,9 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
-
+.message{
+    margin-top: 24px;
+}
 #message{
 display: flex;
 flex-direction: row;
@@ -196,9 +198,7 @@ box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 border-radius: 8px;
 color: #FFFFFF;
 }
-#footer{
-    display: none;
-}
+
 @media screen and (max-width:600px){
     .contact{
         width: 90vw;
