@@ -5,7 +5,7 @@ import Footer from '../footer/Footer'
 export const Contact = () => {
     let first_name; 
     let last_name;
-  const name = first_name + last_name;
+  const name = '{name}';
   
   return (
     <div className='contact'>
@@ -56,7 +56,7 @@ export const Contact = () => {
           <label
             htmlFor="terms"
             id='condition'>
-            You agree to providing your data to <code>{ name }</code> who may contact you.
+            You agree to providing your data to <>{name}</> who may contact you.
           </label>
         </div>
 
