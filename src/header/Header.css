@@ -18,7 +18,14 @@
 #share_btn{
     display: none;
 }
+#profile_img{
+    height: 88px;
+width: 88px;
+left: 532px;
+top: 0px;
+border-radius: 275px;
 
+}
 
 #profile_img:hover{
     color: brown;

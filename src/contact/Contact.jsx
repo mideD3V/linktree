@@ -3,8 +3,7 @@ import ContactStyles from './Contact.css'
 import Footer from '../footer/Footer'
 
 export const Contact = () => {
-    let first_name; 
-    let last_name;
+
   const name = 'Ayomide Oke';
   
   return (
