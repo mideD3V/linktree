@@ -34,10 +34,14 @@
  #share_btn{
      display: block;
     position: absolute;
-    left: 80%;
-    bottom: 93%;
+    left: 86%;
+    top: 44px;
+    bottom: 100%;
 }
  #share_btn2{
      display: none;
+ }
+.profile_ctn{
+     margin-top: 64px;
  }
 }
