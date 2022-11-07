@@ -16,7 +16,7 @@ export const Contact = () => {
         <div className="name">
           <div className="fname">
             <label htmlFor="fname">First name</label>
-            <input
+            <input required
               type="text"
               name="first_name"
               id="first_name"
@@ -37,7 +37,7 @@ export const Contact = () => {
         
         <div className="email">
           <label htmlFor="email">Email</label>
-          <input
+          <input required
             type="email"
             name="email"
             id="email"

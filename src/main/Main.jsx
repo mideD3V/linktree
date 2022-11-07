@@ -24,26 +24,22 @@ export const Main = () => {
         </a>
 
         <a href="http://books.zuri.team" id="books">
-          Read books on Design and Coding
+          Zuri Books
         </a>
 
         <a href="https://books.zuri.team" id="book_python">
-          Become a genius in Python! <br />
-          <em>
-            {" "}
-            (Use this link to order for the best python book at a discount)
-          </em>
+          Python Books
         </a>
 
         <a href="https://background.zuri.team" id="pitch">
-          Run Background Check on a coder here
+          Background Check for Coders
         </a>
 
         <a href="https://books.zuri.team/design-rules" id="book_design">
-          Get <em>FREE</em> design books by Zuri
+        Design Books
         </a>
 
-        <Link to="/contact">Contact Me </Link>
+        <Link to="/contact" id='contact'>Contact Me </Link>
 
       </div>
       <div className="socials">
